@@ -1,0 +1,5 @@
+package net.javaguides.student.service;
+
+public class StudentService {
+
+}

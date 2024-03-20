@@ -1,0 +1,5 @@
+package net.javaguides.student.JpaRepository;
+
+public interface StudentRepository {
+
+}

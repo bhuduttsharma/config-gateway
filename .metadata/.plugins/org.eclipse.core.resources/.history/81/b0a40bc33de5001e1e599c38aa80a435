@@ -1,0 +1,5 @@
+package net.javaguides.school.dto;
+
+public class FullSchoolResponse {
+
+}

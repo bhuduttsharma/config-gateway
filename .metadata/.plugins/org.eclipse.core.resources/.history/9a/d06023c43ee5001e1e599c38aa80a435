@@ -1,0 +1,25 @@
+package net.javaguides.school.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import lombok.RequiredArgsConstructor;
+import net.javaguides.school.Entity.School;
+import net.javaguides.school.JpaRepository.SchoolRepository;
+import net.javaguides.student.Entity.Student;
+import net.javaguides.student.JpaRepository.StudentRepository;
+
+@Service
+@RequiredArgsConstructor
+public class SchoolService {
+	private SchoolRepository repository;
+	private StudentClient client;
+	
+	public void saveSchool(School school) {
+        repository.save(school);
+    }
+	 public List<School> findAllSchools() {
+	        return repository.findAll();
+	    }
+}

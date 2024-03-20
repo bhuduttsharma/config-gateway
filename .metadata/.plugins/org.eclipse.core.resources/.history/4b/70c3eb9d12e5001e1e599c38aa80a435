@@ -1,0 +1,5 @@
+package net.javaguides.student.Entity;
+
+public class Student {
+
+}
